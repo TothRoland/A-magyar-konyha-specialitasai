@@ -12,6 +12,8 @@
 @media (max-width: 768px) {
     .card {
         width: 100% !important;
+        margin: 2px;
+        padding: 2px;
     }
     .container {
         max-width: 50% !important;
@@ -39,7 +41,6 @@ body {
 h1
 {
     margin: 20px !important;
-    margin-top: 100px;
     text-align: center; /*css feladat*/
     text-transform: uppercase; /*css feladat*/
     letter-spacing: 5px; /*css feladat*/
