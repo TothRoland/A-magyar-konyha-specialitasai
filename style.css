@@ -1,0 +1,125 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    flex-basis: 100%;
+    box-shadow: 2px 2px 5px #888;
+    background-color: rgba(255, 255, 255, 0.9) !important;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+        margin: 10px;
+        padding: 10px;
+    }
+    .container {
+        max-width: 50%;
+    }
+    #bevezeto {
+        width: 90%;
+    }
+}
+
+@media (min-width: 768px) {
+    .card {
+        justify-content: center;
+        flex-basis: calc(50% - 40px);
+        margin: 10px;
+        padding: 10px;
+    }
+    .container {
+        max-width: 600px;
+    }
+}
+
+body {
+    background-image: url("kepek/hatter.jpg"); /*css feladat*/
+    background-repeat: repeat; /*css feladat*/
+    margin-bottom: 0;
+}
+
+h1
+{
+    margin: 20px !important;
+    text-align: center; /*css feladat*/
+    text-transform: uppercase; /*css feladat*/
+    letter-spacing: 5px; /*css feladat*/
+}
+
+h2 {
+    text-align: center; /*css feladat*/
+}
+
+div {
+    text-align: center; /*css feladat*/
+}
+
+p {
+    width: 60%; /*css feladat*/
+    margin: 0 auto;
+    text-align: justify; /*css feladat*/
+    font-weight: bold; /*css feladat*/
+}
+
+img{
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px #888;
+    width: 90%;
+    margin: 3%;
+}
+
+button, .btn {
+    margin: 10px;
+    border-radius: 10px !important;
+    padding: 10px 28px;
+    box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    background-color: mediumblue;
+    color: white;
+}
+
+footer {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    flex-basis: 100%;
+    box-shadow: 2px 2px 5px #888;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+h3, h6 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#etel {
+    visibility: hidden; /*css feladat*/
+}
+
+#fejlec {
+    width: 60%; /*css feladat*/
+    margin: 0 auto; /*css feladat*/
+    margin-top: 30px; /*css feladat*/
+    margin-bottom: 30px; /*css feladat*/
+}
+
+#bevezeto {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+#szoveg {
+    padding: 30px;
+    width: 100%;
+    font-size: 20px;
+}
