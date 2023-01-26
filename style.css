@@ -12,17 +12,11 @@
 @media (max-width: 768px) {
     .card {
         width: 100%;
-        margin: 10px;
-        padding: 10px;
+        /*margin: 10px;
+        padding: 10px;*/
     }
     .container {
-        max-width: 50%;
-    }
-    #bevezeto {
-        width: 90% !important;
-    }
-    #fejlec {
-        width: 90% !important;
+        max-width: 50% !important;
     }
 }
 
@@ -34,7 +28,7 @@
         padding: 10px;
     }
     .container {
-        max-width: 600px;
+        max-width: 600px !important;
     }
 }
 
@@ -90,7 +84,7 @@ footer {
     padding: 10px;
     flex-basis: 100%;
     box-shadow: 2px 2px 5px #888;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.9) !important;
 }
 
 h3, h6 {
