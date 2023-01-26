@@ -19,10 +19,10 @@
         max-width: 50%;
     }
     #bevezeto {
-        width: 90%;
+        width: 90% !important;
     }
     #fejlec {
-        width: 90%;
+        width: 90% !important;
     }
 }
 
