@@ -21,6 +21,9 @@
     #bevezeto {
         width: 90%;
     }
+    #fejlec {
+        width: 90%;
+    }
 }
 
 @media (min-width: 768px) {
